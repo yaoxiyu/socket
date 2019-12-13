@@ -69,6 +69,10 @@ int sckClientPool_putConn(void *handle, int connFd, int validFlag);
 // 客户端 socket池 销毁连接
 int sckClientPool_destroy(void *handle);
 
+
+
+
+
 // 服务端 初始化
 int sckServer_init(int port, int *listenFd);
 
